@@ -33,7 +33,7 @@ class About extends Me {
   };
 
   getSkills(): string[] {
-   const hardSkills: string[] = ['Microservices-architecture', 'IasS', 'SOLID enthusiast']
+   const hardSkills: string[] = ['Microservices-architecture', 'MVC', 'SOLID enthusiast']
 
    const softSkills: string[] = [
         'Proactivity (seriously)',
