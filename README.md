@@ -24,23 +24,24 @@ class About extends Me {
     firstName: "Ivan",
     middleName: "Francisco",
     lastName: "Miragaya",
-    age: 22,
+    age: 23,
     currentLocation: "Buenos Aires, Argentina",
-    techInterests: ['Web3', 'Ethereum', 'Cardano', 'Blockchain'];
+    techInterests: ['Web3', 'Ethereum', 'Blockchain', 'Cryptography-based auth'];
     };
 
     return personalInformation;
   };
 
   getSkills(): string[] {
-   const hardSkills: string[] = ['Microservices-architecture', 'MVC', 'SOLID enthusiast']
+   const hardSkills: string[] = ['Microservices-architecture', 'Event-driven workflows', 'Syncronous workflows']
 
    const softSkills: string[] = [
-        'Proactivity (seriously)',
-        'Team player',
+        'Proactivity',
         'Communicative',
         'Troubleshooting',
-        'Clean coder (clean architecture)'
+        'Clean coder (clean architecture)',
+        'SOLID enthusiast',
+        'MVC'
         ];
 
     return [...hardSkills, ...softSkills];
@@ -50,7 +51,7 @@ class About extends Me {
     return [
         {
           language: 'English',
-          level: 'Professional (advanced)'
+          level: 'Professional (B2 certified)'
         },
         {
           language: 'Spanish',
@@ -77,9 +78,10 @@ class About extends Me {
 **INFO** - **\[M-Ivan Github profile]** - Response status: 200</br>
 **INFO** - **\[M-Ivan Github profile]** - Displaying results...</br>
 
-Im currently learning about cloud architecture. Taking the course from [Adrian Cantrill](https://www.linkedin.com/in/adriancantrill/) in [learn.cantrill.io](https://learn.cantrill.io/).
+Im currently learning about cloud architecture. Taking the courses from [Adrian Cantrill](https://www.linkedin.com/in/adriancantrill/) in [learn.cantrill.io](https://learn.cantrill.io/).
 
-- Next stop :busstop: [AWS - Certified developer associate](https://aws.amazon.com/certification/certified-developer-associate/)
+- Last stop :busstop: [AWS - Certified developer associate](https://aws.amazon.com/certification/certified-developer-associate/)
+
 
 ## Lets chat :mailbox:
 
